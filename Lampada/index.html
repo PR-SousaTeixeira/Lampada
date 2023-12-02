@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lampada</title>
+    <style>
+      body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 1s ease-in-out;
+}
+
+        .lampada {
+            position: absolute;
+            top: 0;
+            left: 650px;
+            opacity: 1;
+            transition: opacity 1s ease-in-out;
+        }
+
+        #botao {
+            margin-top: 150px;
+            right: 100vh;
+            padding: 0px;
+            font-size: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="lampada-container">
+        <img id="lampada" class="lampada" src="https://i.postimg.cc/6QyTynzr/bulb-on.png" alt="lampada On" height="300px">
+        <img id="lampada-off" class="lampada" src="https://i.postimg.cc/KjK1wL3c/bulb-off.png" alt="lampada Off" height="300px">
+    </div>
+    <button id="botao"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVJkMsrrXs7uQXPevXDECuaK6nn6xF7jHw&usqp=CAU" alt="interruptor"></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
